@@ -1,0 +1,58 @@
+Berikut adalah skema interfaces yang mencerminkan daatabse untuk Demo Company Profile barang / service elektronik:
+
+interface CompanyMetadata:
+company_name:	string
+founded_at:	number // melayani sejak 2xx
+clients:	number // for text like "We have over xxx clients"
+Instagram:	string // string of link
+Facebook:	string // string of link
+Youtube:	string // string of link
+WhatsApp:	string // string of link
+Email:		string // string of link
+
+interface Motto: 
+motto: 	     	string
+description: 	string 
+
+interface Banner:
+type: 		'mobile' | 'desktop'
+image:		string // image path like: "storage/banner/imagename.png"
+
+interface AboutUs:
+description:	string
+image:		string // image path like: "storage/aboutus/imagename.png"
+footer_message:	string
+
+interface Advantage:
+title:		string
+description:	string
+image:		string // image path like: "storage/aboutus/imagename.png"
+
+image:		string // image path like: "storage/aboutus/imagename.png"
+
+interface ProductKatalog:
+name:		string
+description:	string
+price:		int
+images:		string // array of images path like: "storage/product/imagename.png"
+
+interface ServiceKatalog:
+name:		string
+description:	string
+price:		int
+images:		string // array of images path like: "storage/service/imagename.png"
+
+
+Katalog Produk dapat berisi produk seperti:
+Kamera CCTV (surveilance)
+AC biasa
+AC Central
+IOT Device
+etc.
+
+Katalog Service dapat berisi produk seperti:
+Maintenance
+Servis
+etc.
+
+Berikan saya saran dan buatkan 
