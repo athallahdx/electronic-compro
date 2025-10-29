@@ -283,7 +283,7 @@ export const serviceKatalog: ServiceKatalog[] = [
 export const companyPortfolio: CompanyPortfolio[] = [
   {
     name: 'PT Industri Manufaktur Indonesia',
-    logo: 'https://images.unsplash.com/photo-1565373679280-b6bdbd62ce99?w=200&h=100&fit=crop&q=80',
+    logo: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=cropI',
     website: 'https://example.com',
     description:
       'Complete industrial automation system for automotive parts manufacturing. Implemented automated quality control and production monitoring.',
